@@ -1,0 +1,38 @@
+body {
+  height: 99%;
+  width: 99%;
+  background-color: #FFF8DC;
+  font-size: 100%;
+  font-family: Courier New, Courier, Mono;
+}
+
+h1 {
+  text-align: center;
+  color: maroon;
+  font-weight: bold;
+  font-size: 300%;
+}
+
+h3 {
+  color: #F4A460;
+  font-weight: bold;
+  font-size: 14pt;
+}
+
+h5 {
+  text-align: right;
+  color: RGB(139,0,0);
+  font-weight: bold;
+  font-size: 12pt;
+}
+
+.pants {
+  color: grey;
+  font-size: medium;
+}
+
+.piedziedajums {
+  color: RGB(128,128,128);
+  font-size: 1.1em;
+  font-style: small-caps;
+}
