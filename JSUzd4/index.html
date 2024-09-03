@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Grafiks datora daļu</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="jauns">
+    <div class="forma">
+      <label for="veids">Veids</label><br>
+      <input type="text" id="veids" name="veids"><br>
+      <label for="modelis">Modelis</label><br>
+      <input type="text" id="modelis" name="modelis"><br>
+      <label for="cena">Cena</label><br>
+      <input type="text" id="cena" name="cena"><br>
+      <div class="poga">
+        <button onclick="jaunsObj()">Pievienot Sastāvdaļu</button>
+        <button onclick="mainitObj()">Labot Sastāvdaļu</button>
+      </div>
+    </div>
+    <table id="tabula">
+      <thread>
+        <tr>
+          <th>Veids</th>
+          <th>Modelis</th>
+          <th>Cena</th>
+        </tr>
+      </thread>
+    </table>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
